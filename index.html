@@ -1,0 +1,135 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+    
+<body bgcolor="#DCE9BE">
+    
+    <!--ici commence le menu service et nous contacter-->
+    
+    <table>
+        <tr> <td><p style="margin-left: 300px"><a href="#">Sercices</a></p></td> 
+            <td><a style="margin-left: 10px">|</a></td>
+            <td><p style="margin-left: 25px" ><a href="#">Contact us</a></p></td>
+        </tr>
+    </table>
+   <!--ici se termine ce menu-->
+    
+    
+    <!-- ici débute le formulaire de connection-->
+    
+    <div align="right" style="position:absolute ; top: 18px; left: 69%">
+        <form method="post" action="#">
+            <table>
+                <tr><td><input type="text" placeholder="username" name="username" ></td>
+                    <td><input type="password" placeholder="password" name="password" ></td>
+                    <td><input type="submit" value="connexion" name="connexion"> </td>
+                </tr>
+            </table>
+           
+        </form>
+    </div>
+    <!--ici se termine le formulaire de connection -->
+    <form method="post" action="#" >
+        <table>
+            <tr><td><h2>Veuiller vous inscrire :</h2></td></tr>
+            <tr><td><input type="text" placeholder="Prénom" name="prénom" ></td><td><input type="text" placeholder="Nom" name="nom" ></td></tr>
+            <tr><td colspan="3"><input type="number" placeholder="Numéro de téléphone" name="tel" style="width: 400px" ></td> </tr>
+            <tr><td colspan="3"><input type="text" placeholder="E-MAIL" name="mail" style="width: 400px"></td> </tr>
+            <tr><td colspan="3"><textarea rows="7" cols="45" placeholder="Adresse" name="adresse" style="width: 400px" ></textarea></td> </tr>
+            <tr><td><h2>Date de Naissance  :</h2></td></tr>
+            <tr><td><select name="jour" class="naissance">
+                                          <option value="1">1</option>
+                                          <option value="2">2</option>
+                                          <option value="3">3</option>
+                                          <option value="4">4</option>
+                                          <option value="5">5</option>
+                                          <option value="6">6</option>
+                                          <option value="7">7</option>
+                                          <option value="8">8</option>
+                                          <option value="9">9</option>
+                                          <option value="10">10</option>
+                                          <option value="11">11</option>
+                                          <option value="12">12</option>
+                                          <option value="13">13</option>
+                                          <option value="14">14</option>
+                                          <option value="15">15</option>
+                                          <option value="16">16</option>
+                                          <option value="17">17</option>
+                                          <option value="18">18</option>
+                                          <option value="19">19</option>
+                                          <option value="20">20</option>
+                                          <option value="21">21</option>
+                                          <option value="22">22</option>
+                                          <option value="23">23</option>
+                                          <option value="24">24</option>
+                                          <option value="25">25</option>
+                                          <option value="26">26</option>
+                                          <option value="27">27</option>
+                                          <option value="28">28</option>
+                                          <option value="29">29</option>
+                                          <option value="30">30</option>
+                                          <option value="31">31</option>
+
+                </select></td>
+            <td><select class="naissance" >
+                                          <option value="1">1</option>
+                                          <option value="2">2</option>
+                                          <option value="3">3</option>
+                                          <option value="4">4</option>
+                                          <option value="5">5</option>
+                                          <option value="6">6</option>
+                                          <option value="7">7</option>
+                                          <option value="8">8</option>
+                                          <option value="9">9</option>
+                                          <option value="10">10</option>
+                                          <option value="11">11</option>
+                                          <option value="12">12</option>
+                <option value="12">12</option></select></td>
+                <td><select id="yearSelect" class="naissance"></select>
+
+                                            <script>
+                                              var select = document.getElementById("yearSelect");
+                                              var currentYear = new Date().getFullYear();
+                                              for (var i = currentYear; i >= currentYear-100; i--) {
+                                                var option = document.createElement("option");
+                                                option.value = i;
+                                                option.text = i;
+                                                select.appendChild(option);
+                                              }
+                                            </script>
+                </td>
+            </tr>
+                <tr><td><h2>Sexe:</h2></td></tr>
+                <tr><td><input type="radio" name="sexe" value="masculin">Homme</td><td><input type="radio" name="sexe" value="feminin">Femme</td></tr>
+                <tr><td colspan="3"><input type="text" placeholder="Pseudo" name="pseudo" style="width: 400px" ></td> </tr>
+                <tr><td colspan="3"><input type="password" placeholder="Mot de passe" name="motdepasse" style="width: 400px"></td> </tr>
+                <tr><td><input type="submit" value="Envoyer" name="envoyer"> </td></tr>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </table>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </form>
+    
+    
+    
+</body>
