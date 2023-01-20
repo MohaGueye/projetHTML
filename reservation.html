@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Reservation</title>
+        <style>
+            body {
+                background-color: #DCE9BE;
+                font-family: Verdana, Arial, Helvetica, sans-serif ;
+                font-size: 14px;
+            }
+
+            ul {
+                list-style-type: none;
+            }
+            
+            tr {
+                text-align: center;
+            }
+
+            table{
+                border: 1.5px;
+                border-style: solid;
+                border-color: rgb(120, 9, 9);
+                border-collapse: collapse;
+                width: 70%;
+            }
+
+            td{
+                border: 1.5px;
+                border-style: solid;
+                border-color: rgb(120, 9, 9);
+                font-weight: bold;
+            }
+
+            #barremenu{
+                display: flex;
+                width: 50%;
+                justify-content: space-around;
+            }
+
+            #tableau{
+                display: flex;
+                width: 70%;
+                justify-content: center;
+                margin-left: 150px;
+                margin-top: -50px;
+            }
+
+            #menupays{
+                display: flex;
+                width: 20%;
+                margin-top: 10px;
+            }
+
+            #titredoc{
+                margin-top: 100px;
+            }
+
+            #imagegauche{
+                display: flex;
+                margin-left:900px;
+                margin-top: -250px;
+            }
+        </style>
+    </head>
+
+    <body> 
+        <div>
+            <ul id="barremenu"> 
+                <li><a href="#">Home</a></li> 
+                <li>|</li>
+                <li><a href="#">Services</a></li> 
+                <li>|</li>
+                <li><a href="#">Réserver maintenant</a></li> 
+                <li>|</li>
+                <li><a href="#">Nous contacter</a></li>
+            </ul>
+        </div>
+
+        <h3 id="titredoc"> Espace de réservation de Chambres d'Hotel</h3>
+
+        <div id="menupays">
+            <ul id="listemenupays">
+                <li><a href="#">AFRIQUE</a></li>
+                <li><a href="#">AMERIQUE</a></li>
+                <li><a href="#">ASIE</a></li>
+                <li><a href="#">EUROPE</a></li>
+                <li><a href="#">OCEANIE</a></li>
+            </ul>
+        </div>
+        
+        <div id="tableau">
+            <table>
+                <tr>
+                    <td colspan="2"></td>
+                    <td colspan="2">Prix</td>
+                </tr>
+                <tr>
+                    <td width="15%">Pays</td>
+                    <td width="15%">Ville/Hotel</td>
+                    <td width="15%">Euro &euro;</td>
+                    <td width="15%">Dollar &dollar;</td>
+                </tr>
+                <tr>
+                    <td>Sénégal</td>
+                    <td>Mbour/Téranga</td>
+                    <td>100</td>
+                    <td>80</td>
+                </tr>
+                <tr>
+                    <td>Sénégal</td>
+                    <td>Dakar/Terroubi</td>
+                    <td>60</td>
+                    <td>50</td>
+                 </tr>
+                <tr>
+                    <td>Sénégal</td>
+                    <td>Saint-Louis/Rognat</td>
+                    <td>50</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>Sénégal</td>
+                    <td>Mbour/Palm Beach</td>
+                    <td>120</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Sénégal</td>
+                    <td>Thies/Latdior</td>
+                    <td>100</td>
+                    <td>90</td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="imagegauche">
+            <img src="0002.jpg">
+         </div>
+
+    </body>
+    <foot>
+        <h3 style="position:absolute; bottom: 0px">Copyright &#xA9; 2019[senteranga_Hotel Inc.].All rights reserved.</h3>
+    </foot>
+</html>
+    
